@@ -57,9 +57,4 @@ Para activar el GitHub Pages en la rama main: dentro del repositorio de GitHub 
    - Elementos para estilo
    - Referencias de caracteres con nombre. Entidades: &, &#, &#x
 
-De interés:
-
-* [downloading-source-code-archives](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives#downloading-source-code-archives)
-- [https://code.visualstudio.com/docs/languages/html](https://code.visualstudio.com/docs/languages/html "https://code.visualstudio.com/docs/languages/html")  
-    
-- [creating-your-site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site)
+   [index.html](index.html)
