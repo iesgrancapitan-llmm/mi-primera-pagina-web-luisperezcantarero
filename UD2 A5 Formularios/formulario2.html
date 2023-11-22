@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Luis">
+    <title>Formulario de registro 2</title>
+</head>
+<body>
+    <h1>Formulario de registro 2</h1>
+    <hr>
+    <form>
+        <p>
+        <label>Nombre:
+            <input type="text" id="nombre">
+        </label>
+        </p>
+        <p>
+        <label>Apellidos:
+            <input type="text" id="apellido">
+        </label>
+        </p>
+        <p>
+        Sexo:
+            hombre
+            <input type="radio" name="Sexo" id="hombre">
+            mujer
+            <input type="radio" name="Sexo" id="mujer">
+        </p>
+        <p>
+            <label>Correo:
+                <input type="text" name="correo">
+            </label>
+        </p>
+        <p>
+            <label>Población:
+                <select name="poblacion" id="poblacion">
+                    <option value="poblacion">Alicante</option>
+                    <option value="poblacion">Córdoba</option>
+                    <option value="poblacion">Sevilla</option>
+                    <option value="poblacion">Madrid</option>
+                    <option value="poblacion">Valencia</option>
+                    <option value="poblacion">Bilbao</option>
+                    <option value="poblacion">Barcelona</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label>Descripción:
+                <textarea name="descripcion" id="descripcion" rows="10" cols="30"></textarea>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" name="información">
+                Deseo recibir información sobre novedades y ofertas.
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" name="condiciones">
+                Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos
+            </label>
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+    <a href="index.html">Página de formularios</a>
+</body>
+</html>

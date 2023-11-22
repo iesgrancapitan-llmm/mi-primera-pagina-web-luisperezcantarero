@@ -24,12 +24,11 @@ Palabras clave:
 * cajas
 
 1. Codifica los siguientes formularios:
-    1. Formulario de registro
-    1. Formulario de registro 2
-    1. Formulario  HTML5
-1. Implementa el formulario del pdf adjunto
-1. Revisa los formularios que has enviado y confirma que:
+    1. Formulario de [registro](formulario.html)
+    2. Formulario de [registro 2](formulario2.html)
+    3. Formulario  [HTML5](formulario3.html)
+2. Implementa el [formulario del pdf](formulario4.html) adjunto
+3. Revisa los formularios que has enviado y confirma que:
     1. Asocias de forma correcta al label con su control
-    1. Añades los botones de submit y reset al final de cada formulario
-    1. Todos los controles tienen un comportamiento adecuado
-
+    2. Añades los botones de submit y reset al final de cada formulario
+    3. Todos los controles tienen un comportamiento adecuado
