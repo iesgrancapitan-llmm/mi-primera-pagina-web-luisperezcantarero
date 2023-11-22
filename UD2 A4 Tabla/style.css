@@ -1,0 +1,45 @@
+body{
+    background-color: lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+table {
+    width: 100%;
+    font-weight: bold;
+    border: thick double crimson;
+    background-color: black;
+}
+td, th{
+    border: thin solid black;
+}
+.si {
+    background-color: aquamarine;
+    color: blue;
+}
+.bbdd{
+    background-color: lightcoral;
+    color: red;
+}
+.pg{
+    background-color: lightseagreen;
+    color: yellow;
+}
+.llmm{
+    background-color: lightgreen;
+    color: white;
+}
+.edd{
+    background-color: blueviolet;
+    color: violet;
+}
+.fol{
+    background-color: peru;
+    color: orangered;
+}
+.recreo{
+    background-color: gray;
+}
+.tabla{
+    background-color: white;
+    color: darkblue;
+}
