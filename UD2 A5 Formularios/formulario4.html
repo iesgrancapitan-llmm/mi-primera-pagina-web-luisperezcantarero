@@ -9,6 +9,8 @@
     <h1>Controles de formulario</h1>
     <hr>
     <form>
+        <fieldset>
+        <legend>Datos personales</legend>
         <p>
             <label>Nombre:
                 <input type="text" name="nombre" id="nombre">
@@ -38,6 +40,10 @@
                 </select>
             </label>
         </p>
+        </fieldset>
+        
+        <fieldset>
+        <legend>Otros datos</legend>
         <p>
             <label>Fecha:
                 <input type="date" name="fecha" id="fecha">
@@ -83,6 +89,10 @@
                 <input type="color" name="color" id="color">
             </label>
         </p>
+        </fieldset>
+        
+        <fieldset>
+        <legend>Otros controles</legend>
         <p>Afición:
             <label>Cine
                 <input type="checkbox" name="aficion" id="cine">
@@ -103,6 +113,7 @@
                 <input type="radio" name="formapago" id="master">
             </label>
         </p>
+        </fieldset>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Borrar">
