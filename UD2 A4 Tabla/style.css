@@ -4,13 +4,12 @@ body{
 }
 table {
     text-align: center;
-    width: 50%;
     font-weight: bold;
     border: thick double crimson;
     background-color: black;
 }
-td, th{
-    border: thin solid black;
+td{
+    width: 16%;
 }
 .si {
     background-color: aquamarine;
