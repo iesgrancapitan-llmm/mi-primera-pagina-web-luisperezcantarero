@@ -23,7 +23,7 @@ a{
   }
   
   /* Todos los elementos <em> con la clase "especial" en toda la pagina */
-em{
+em.especial{
     color: #FFFF00;
     background: #000000;
   }
