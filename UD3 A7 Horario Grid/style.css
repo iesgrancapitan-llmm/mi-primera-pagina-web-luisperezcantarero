@@ -1,73 +1,206 @@
 div {
     display: grid;
-    grid-template-areas: 'auto auto auto auto auto auto';
+    grid-template-areas: 'horas lunes martes miercoles jueves viernes'
+                         'primera si1 llmm1 edd1 fol1 fol2'
+                         'segunda si1 llmm1 edd1 si2 fol2'
+                         'tercera pr1 si3 llmm2 si2 bbdd4'
+                         'recreohora recreo recreo recreo recreo recreo'
+                         /* 'cuarta pr1 si3 llmm2 edd2 bbdd4' */
+                         /* 'quinta bbdd1 pr2 bbdd3 pr3 pr4'
+                         'sexta bbdd1 pr2 bbdd3 pr3 pr4' */
+                         ;
     padding: 1rem;
     background-color: aquamarine;
     text-align: center;
 }
-section {
-    width: 100%;
-}
-header {
-    width: 100%;
+.horario {
+    grid-area: horario;
+    border: 2px solid black;
+    padding-top: 35%;
 }
 .horas {
+    grid-area: horas;
     background-color: red;
+    border: 2px solid black;
+    padding-top: 35%;
 }
 .primera {
+    grid-area: primera;
     background-color: azure;
+    border: 2px solid black;
+    padding-top: 35%;
 }
 .segunda {
+    grid-area: segunda;
     background-color: azure;
+    border: 2px solid black;
+    padding-top: 35%;
 }
 .tercera {
+    grid-area: tercera;
     background-color: azure;
+    border: 2px solid black;
+    padding-top: 35%;
 }
 .recreohora {
+    grid-area: recreohora;
     background-color: azure;
+    border: 2px solid black;
+    padding-top: 35%;
 }
 .cuarta {
+    grid-area: cuarta;
     background-color: azure;
+    border: 2px solid black;
+    padding-top: 35%;
 }
 .quinta {
+    grid-area: quinta;
     background-color: azure;
+    border: 2px solid black;
+    padding-top: 35%;
 }
 .sexta {
+    grid-area: sexta;
     background-color: azure;
+    border: 2px solid black;
+    padding-top: 35%;
 }
 .lunes {
+    grid-area: lunes;
     background-color: blue;
+    border: 2px solid black;
+    padding-top: 35%;
 }
 .martes {
+    grid-area: martes;
     background-color: brown;
+    border: 2px solid black;
+    padding-top: 35%;
 }
 .miercoles {
+    grid-area: miercoles;
     background-color: yellow;
+    border: 2px solid black;
+    padding-top: 35%;
 }
 .jueves {
+    grid-area: jueves;
     background-color: pink;
+    border: 2px solid black;
+    padding-top: 35%;
 }
 .viernes {
+    grid-area: viernes;
     background-color: greenyellow;
+    border: 2px solid black;
+    padding-top: 35%;
 }
-.si {
+.si1 {
+    grid-area: si1;
     background-color: lightskyblue;
+    border: 2px solid black;
+    padding-top: 35%;
 }
-.pr {
+.si2 {
+    grid-area: si2;
+    background-color: lightskyblue;
+    border: 2px solid black;
+    padding-top: 35%;
+}
+.si3 {
+    grid-area: si3;
+    background-color: lightskyblue;
+    border: 2px solid black;
+    padding-top: 35%;
+}
+.pr1 {
+    grid-area: pr1;
     background-color: lightslategray;
+    border: 2px solid black;
+    padding-top: 35%;
 }
-.bbdd {
+.pr2 {
+    grid-area: pr2;
+    background-color: lightslategray;
+    border: 2px solid black;
+    padding-top: 35%;
+}
+.pr3 {
+    grid-area: pr3;
+    background-color: lightslategray;
+    border: 2px solid black;
+    padding-top: 35%;
+}
+.pr4 {
+    grid-area: pr4;
+    background-color: lightslategray;
+    border: 2px solid black;
+    padding-top: 35%;
+}
+.bbdd1 {
+    grid-area: bbdd1;
     background-color: lightsalmon;
+    border: 2px solid black;
+    padding-top: 35%;
 }
-.llmm {
+.bbdd2 {
+    grid-area: bbdd2;
+    background-color: lightsalmon;
+    border: 2px solid black;
+    padding-top: 35%;
+}
+.bbdd3 {
+    grid-area: bbdd3;
+    background-color: lightsalmon;
+    border: 2px solid black;
+    padding-top: 35%;
+}
+.bbdd4 {
+    grid-area: bbdd4;
+    background-color: lightsalmon;
+    border: 2px solid black;
+    padding-top: 35%;
+}
+.llmm1 {
+    grid-area: llmm1;
     background-color: lightgreen;
+    border: 2px solid black;
+    padding-top: 35%;
 }
-.edd {
+.llmm2 {
+    grid-area: llmm2;
+    background-color: lightgreen;
+    border: 2px solid black;
+    padding-top: 35%;
+}
+.edd1 {
+    grid-area: edd1;
     background-color: lightgoldenrodyellow;
+    border: 2px solid black;
+    padding-top: 35%;
 }
-.fol {
+.edd2 {
+    grid-area: edd2;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid black;
+    padding-top: 35%;
+}
+.fol1 {
+    grid-area: fol1;
     background-color: lightpink;
+    border: 2px solid black;
+    padding-top: 35%;
+}
+.fol2 {
+    grid-area: fol2;
+    background-color: lightpink;
+    border: 2px solid black;
+    padding-top: 35%;
 }
 .recreo {
+    grid-area: recreo;
     background-color: lightsalmon;
+    border: 2px solid black;
+    padding-top: 35%;
 }
