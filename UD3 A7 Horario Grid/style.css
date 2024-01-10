@@ -1,3 +1,8 @@
+body {
+    background-color: #DFA;
+    text-align: center;
+    
+}
 div {
     display: grid;
     grid-template-areas: 'horas lunes martes miercoles jueves viernes'
@@ -10,9 +15,13 @@ div {
                          'sexta bbdd1 pr3 bbdd3 pr4 pr4';
     padding: 1rem;
     background-color: aquamarine;
-    text-align: center;
 }
+.horario {
+    border: 2px solid black;
+    text-align: center;
+    background-color: #A34;
 
+}
 .horas {
     grid-area: horas;
     background-color: red;
