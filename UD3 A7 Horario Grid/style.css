@@ -1,0 +1,73 @@
+div {
+    display: grid;
+    grid-template-areas: 'auto auto auto auto auto auto';
+    padding: 1rem;
+    background-color: aquamarine;
+    text-align: center;
+}
+section {
+    width: 100%;
+}
+header {
+    width: 100%;
+}
+.horas {
+    background-color: red;
+}
+.primera {
+    background-color: azure;
+}
+.segunda {
+    background-color: azure;
+}
+.tercera {
+    background-color: azure;
+}
+.recreohora {
+    background-color: azure;
+}
+.cuarta {
+    background-color: azure;
+}
+.quinta {
+    background-color: azure;
+}
+.sexta {
+    background-color: azure;
+}
+.lunes {
+    background-color: blue;
+}
+.martes {
+    background-color: brown;
+}
+.miercoles {
+    background-color: yellow;
+}
+.jueves {
+    background-color: pink;
+}
+.viernes {
+    background-color: greenyellow;
+}
+.si {
+    background-color: lightskyblue;
+}
+.pr {
+    background-color: lightslategray;
+}
+.bbdd {
+    background-color: lightsalmon;
+}
+.llmm {
+    background-color: lightgreen;
+}
+.edd {
+    background-color: lightgoldenrodyellow;
+}
+.fol {
+    background-color: lightpink;
+}
+.recreo {
+    background-color: lightsalmon;
+}
