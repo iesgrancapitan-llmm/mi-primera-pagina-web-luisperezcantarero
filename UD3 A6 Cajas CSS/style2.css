@@ -1,0 +1,26 @@
+body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+h1 {
+    border: 2px solid #00F;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+h2 {
+    border: 2px solid #AAA;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+ul {
+    border: 2px solid #0F0;
+}
+li {
+    margin-bottom: 0;
+}
+li + li {
+    margin-top: 15px;
+}

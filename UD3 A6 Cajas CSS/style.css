@@ -1,0 +1,13 @@
+h1 {
+    border-bottom: 2px solid blue;
+}
+h2 {
+    border: 1px solid gray;
+}
+.lista1 {
+    border-top: 4px dotted red;
+    border-bottom: 4px dotted red;
+}
+.lista2 {
+    border: 3px dashed rgb(57, 255, 47);
+}
