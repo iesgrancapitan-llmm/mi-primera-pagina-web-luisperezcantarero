@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>La Hemeroteca del Buitre</title>
+	<atom:link href="https://lahemerotecadelbuitre.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lahemerotecadelbuitre.com/</link>
+	<description>La Hemeroteca del Buitre</description>
+	<lastBuildDate>Mon, 10 Dec 2012 20:19:01 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>Hello world!</title>
+		<link>https://lahemerotecadelbuitre.com/hello-world/</link>
+		
+		<dc:creator><![CDATA[Administrador - BeHappy Co.]]></dc:creator>
+		<pubDate>Tue, 27 Nov 2012 19:06:14 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://lahemerotecadelbuitre.com/?p=1</guid>
+
+					<description><![CDATA[<p>The post <a href="https://lahemerotecadelbuitre.com/hello-world/">Hello world!</a> appeared first on <a href="https://lahemerotecadelbuitre.com">La Hemeroteca del Buitre</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div class="threecol-one">Sed eu leo nec arcu sodales dictum. Proin id dui diam. Proin mattis purus ut nisl dapibus auctor! Donec facilisis faucibus sapien, vel porttitor tellus iaculis ut. Maecenas laoreet tortor in risus vestibulum laoreet. Integer ipsum justo, lobortis ut tristique vel, interdum quis diam. Curabitur sed lectus lectus; in consectetur arcu. Curabitur lacus nisl, porta at ornare a, feugiat quis mi. Morbi odio lorem, egestas quis suscipit at, tincidunt pellentesque mauris. Cras suscipit varius velit. Morbi faucibus, lectus sed laoreet mattis, est tellus tristique tortor, non aliquam libero diam et augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec fringilla eleifend purus non tempus. Pellentesque orci ligula, venenatis at ultricies id; ornare ac metus</div>
+<div class="threecol-one">Sed eu leo nec arcu sodales dictum. Proin id dui diam. Proin mattis purus ut nisl dapibus auctor! Donec facilisis faucibus sapien, vel porttitor tellus iaculis ut. Maecenas laoreet tortor in risus vestibulum laoreet. Integer ipsum justo, lobortis ut tristique vel, interdum quis diam. Curabitur sed lectus lectus; in consectetur arcu. Curabitur lacus nisl, porta at ornare a, feugiat quis mi. Morbi odio lorem, egestas quis suscipit at, tincidunt pellentesque mauris. Cras suscipit varius velit. Morbi faucibus, lectus sed laoreet mattis, est tellus tristique tortor, non aliquam libero diam et augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec fringilla eleifend purus non tempus. Pellentesque orci ligula, venenatis at ultricies id; ornare ac metus</div>
+<div class="threecol-one last">Sed eu leo nec arcu sodales dictum. Proin id dui diam. Proin mattis purus ut nisl dapibus auctor! Donec facilisis faucibus sapien, vel porttitor tellus iaculis ut. Maecenas laoreet tortor in risus vestibulum laoreet. Integer ipsum justo, lobortis ut tristique vel, interdum quis diam. Curabitur sed lectus lectus; in consectetur arcu. Curabitur lacus nisl, porta at ornare a, feugiat quis mi. Morbi odio lorem, egestas quis suscipit at, tincidunt pellentesque mauris. Cras suscipit varius velit. Morbi faucibus, lectus sed laoreet mattis, est tellus tristique tortor, non aliquam libero diam et augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec fringilla eleifend purus non tempus. Pellentesque orci ligula, venenatis at ultricies id; ornare ac metus</div><div class="clear"></div>
+<p>The post <a href="https://lahemerotecadelbuitre.com/hello-world/">Hello world!</a> appeared first on <a href="https://lahemerotecadelbuitre.com">La Hemeroteca del Buitre</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
