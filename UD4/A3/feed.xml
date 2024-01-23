@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="http://www.ejemplo.org">
+    <title>Mi primera página web</title>
+    <link href="https://shiny-dollop-rrlwvkj.pages.github.io/"/>
+    <updated>23/01/2024</updated>
+    <author>
+        <name>Luis Pérez</name>
+    </author>
+    <id>urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af6</id>
+    <entry>
+        <title>Feed de mi página</title>
+        <link href="http://ejemplo.org/2020/12/13/atom03"/>
+        <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+        <updated>23/01/2024</updated>
+        <summary>Esta es mi primera vez haciendo un feed para mi página web.</summary>
+    </entry>
+</feed>

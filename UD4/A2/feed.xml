@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Bienvenidos a mi página</title>
+    <link>https://shiny-dollop-rrlwvkj.pages.github.io/</link>
+    <atom:link href="https://shiny-dollop-rrlwvkj.pages.github.io/" rel="self" type="application/rss+xml"/>
+    <description>Este es mi primer fichero rss</description>
+    <category>HTML5/CSS3/XML</category>
+    <copyright>El  uso de esta página pertenece a Luis Pérez Cantarero</copyright>
+    <language>es-es</language>
+    <pubDate>Wed, 02 Oct 2002 08:00:00 EST</pubDate>
+    <webMaster>a23pecalu@iesgrancapitan.org (Luis Pérez)</webMaster>
+    <skipDays>
+      <day>Saturday</day>
+      <day>Sunday</day>
+    </skipDays>
+    <skipHours>
+      <hour>1</hour>
+      <hour>2</hour>
+      <hour>3</hour>
+      <hour>4</hour>
+      <hour>5</hour>
+    </skipHours>
+    <image>
+      <url>https://github.com/iesgrancapitan-llmm/ud4-a2-creacion-de-canales-de-contenidos-formato-rss-luisperezcantarero/blob/main/DAM-o-DAW-desarrollo.jpg?raw=true</url>
+      <title>Bienvenidos a mi página</title>
+      <link>https://shiny-dollop-rrlwvkj.pages.github.io/</link>
+    </image>
+    <item>
+      <title>Bienvenidos a mi página</title>
+      <link>https://shiny-dollop-rrlwvkj.pages.github.io/</link>
+      <guid>https://shiny-dollop-rrlwvkj.pages.github.io/</guid>
+      <description>Curso en el que estoy realizando la página</description>
+    </item>
+  </channel>
+</rss>
