@@ -60,7 +60,23 @@ Las etiquetas principales de los archivos RSS:
 
 * Fichero RSS
   * Etiqueta 'rss'
-    * 
+    * Etiqueta 'channel'
+      * Etiqueta 'title'
+      * Etiqueta 'link'
+      * Etiqueta 'description'
+      * Etiqueta 'lastBuildDate'
+      * Etiqueta 'language'
+      * Etiqueta 'webMaster'
+      * Etiqueta 'item'
+        * Etiqueta 'title'
+        * Etiqueta 'link'
+        * Etiqueta 'pubDate'
+        * Etiqueta 'category'
+        * Etiqueta 'guid'
+
+* Etiqueta 'description'
+* Etiqueta 'link'
+* Etiqueta 'category'
 
 Las etiquetas principales de los archivos ATOM:
 
