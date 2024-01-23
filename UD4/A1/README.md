@@ -58,20 +58,28 @@ Ayuntamiento de Carteya [RSS](./ficheros/aytocarteya_RSS.xml)
 
 Las etiquetas principales de los archivos RSS:
 
-* Etiqueta 'rss'
-* Etiqueta 'title'
-* Etiqueta 'channel'
-* Etiqueta 'description'
-* Etiqueta 'link'
-* Etiqueta 'category'
+* Fichero RSS
+  * Etiqueta 'rss'
+    * 
 
 Las etiquetas principales de los archivos ATOM:
 
-* Etiqueta 'feed'
-* Etiqueta 'title'
-* Etiqueta 'entry'
-* Etiqueta 'link'
-* Etiqueta 'id'
-* Etiqueta 'update'
-* Etiqueta 'author'
-* Etiqueta 'name'
+* Fichero Atom
+  * Etiqueta 'feed'
+    * title
+    * subtitle
+    * link
+    * id
+    * rights
+    * update
+    * author
+    * name
+    * uri
+    * email
+      * entry
+        * category
+        * id
+        * link
+        * published
+        * summary
+        * title
