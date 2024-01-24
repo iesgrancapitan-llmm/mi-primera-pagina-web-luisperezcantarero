@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DTD
+ -->
+
+<!DOCTYPE alumnos [
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (nombre, apellido, ciclo, (nota_media | nota_final))>
+<!ATTLIST alumno expediente CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT ciclo (#PCDATA)>
+<!ELEMENT nota_final (#PCDATA)>
+<!ELEMENT nota_media (#PCDATA)>
+]>
+<alumnos>
+  <alumno expediente="A001">
+    <nombre>Luis</nombre>
+    <apellido>Pérez</apellido>
+    <ciclo>DAW</ciclo>
+    <!-- <nota_media>8</nota_media> -->
+    <nota_final>9</nota_final>
+  </alumno>
+  <alumno expediente="A002">
+    <nombre>Juan</nombre>
+    <apellido>Esteban</apellido>
+    <ciclo>ASIR</ciclo>
+    <nota_media>7</nota_media>
+    <!-- <nota_final>8</nota_final> -->
+  </alumno>
+</alumnos>
