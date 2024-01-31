@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Factura SYSTEM "file:/C:/Users/Luis%20P%C3%A9rez%20Cantarero/Documents/DAW/Lenguaje/UD2%20A1%20Mi%20primera%20p%C3%A1gina%20Web/mi-primera-pagina-web-luisperezcantarero-main/UD5/A2/ficheros_xml/ej5_factura_dtd.dtd">
+<Factura>
+  <cabecera factura_id="12345">
+    <fecha>
+      <mes>Marzo</mes>
+      <dia>15</dia>
+      <anno/>
+    </fecha>
+    <cliente cliente_id="J-123" nombre="Juan Garcia Sánchez" telefono="957-000-111">
+      <direccion>
+        <nombre_via tipovia="Calle">Fragua</nombre_via>
+        <numero>6</numero>
+        <localidad>Fernán Nuñez</localidad>
+        <provincia>Córdoba</provincia>
+        <cp>14550</cp>
+        <pais>España</pais>
+      </direccion>
+    </cliente>
+  </cabecera>
+  <apunte descuento="promocion" precio="57">
+    <concepto cantidad="2">Tarjeta gráfica 3D</concepto>
+  </apunte>
+  <apunte moneda="euro" precio="27,5">
+    <concepto>Memoria Flash</concepto>
+  </apunte>
+</Factura>

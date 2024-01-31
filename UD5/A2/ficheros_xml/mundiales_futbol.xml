@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mundiales-de-futbol [
+<!ELEMENT mundiales-de-futbol (mundial)>
+<!ELEMENT mundial (pais, anno)>
+<!ELEMENT pais (#PCDATA)>
+<!ATTLIST pais nombre ID #REQUIRED>
+<!ELEMENT anno (#PCDATA)>
+<!ATTLIST anno numero CDATA #REQUIRED>
+]>
+<mundiales-de-futbol>
+  <mundial>
+    <pais nombre="España"/>
+    <anno numero="1982"/>
+  </mundial>
+</mundiales-de-futbol>

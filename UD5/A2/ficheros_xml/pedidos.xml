@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos [
+<!ELEMENT pedidos (pedido)>
+<!ELEMENT pedido (destinatario, producto, direccion, fecha)>
+<!ELEMENT destinatario (#PCDATA)>
+<!ELEMENT producto (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ATTLIST direccion piso CDATA #REQUIRED>
+<!ATTLIST direccion letra CDATA #REQUIRED>
+<!ELEMENT fecha (#PCDATA)>
+]>
+<pedidos>
+  <pedido>
+    <destinatario>Juan Delgado Martínez</destinatario>
+    <producto>bicicleta A203</producto>
+    <direccion piso="tercer piso" letra="A">calle Barco 4</direccion>
+    <fecha>19-5-2000</fecha>
+  </pedido>
+</pedidos>

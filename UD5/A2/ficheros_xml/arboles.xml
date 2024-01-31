@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arboles [
+<!ELEMENT arboles (arbol+)>
+<!ELEMENT arbol (nombre, vegetacion, altura, forma_estructura, color, resistencia)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre cientifico CDATA #REQUIRED comun CDATA #REQUIRED>
+<!ELEMENT vegetacion (#PCDATA)>
+<!ELEMENT altura (#PCDATA)>
+<!ELEMENT forma_estructura (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ATTLIST color otoño CDATA #IMPLIED primavera CDATA #IMPLIED>
+<!ELEMENT resistencia (#PCDATA)>
+<!ATTLIST resistencia temperatura CDATA #REQUIRED>
+]>
+<arboles>
+  <arbol>
+    <nombre cientifico="Acer monspessulanum" comun="Arce de Montpellier, Arce menor"/>
+    <vegetacion>Caducifolio</vegetacion>
+    <altura>De 6 a 10 metros</altura>
+    <forma_estructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</forma_estructura>
+    <color primavera="Haz verde brillante, verde blanquecino"/>
+    <resistencia temperatura="-15ºC">Heladas fuertes</resistencia>
+  </arbol>
+  <arbol>
+    <nombre cientifico="Olea europea" comun="Olivo"/>
+    <vegetacion>Perenne</vegetacion>
+    <altura>De 8 a 15 metros</altura>
+    <forma_estructura>Copa irregular. Tronco principall irregular con bifurcaciones. Ramaje tortuoso</forma_estructura>
+    <color primavera="Haz verde oscuro, envés verde plateado" />
+    <resistencia temperatura="-10ºC">Heladas medias</resistencia>
+  </arbol>
+  <arbol>
+    <nombre cientifico="platanus orientalis" comun="platano"/>
+    <vegetacion>Caducifolio</vegetacion>
+    <altura>De 20 a 25 metros</altura>
+    <forma_estructura>Copa ovoidal. Tronco principal recto. Ramaje expandido</forma_estructura>
+    <color primavera="Haz verde medio, enves verde claro" otoño="Ocre"/>
+    <resistencia temperatura="-20ºC">Heladas fuertes</resistencia>
+  </arbol>
+  <arbol>
+    <nombre cientifico="Quercus ilex" comun="Encina"/>
+    <vegetacion>Perenne</vegetacion>
+    <altura>En torno a 25 metros</altura>
+    <forma_estructura>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</forma_estructura>
+    <color primavera="Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado"/>
+    <resistencia temperatura="-20ºC">Heladas fuertes</resistencia>
+  </arbol>
+</arboles>

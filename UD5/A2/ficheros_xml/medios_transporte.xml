@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mediosDeTransporte [
+<!ELEMENT mediosDeTransporte (bicicleta, patinete)>
+<!ELEMENT bicicleta (#PCDATA)>
+<!ATTLIST bicicleta velocidad CDATA #REQUIRED>
+<!ELEMENT patinete (#PCDATA)>
+<!ATTLIST patinete velocidad_maxima CDATA #REQUIRED>
+]>
+<mediosDeTransporte>
+  <bicicleta velocidad="v&lt;100km/h" />
+  <patinete velocidad_maxima="50 km/h"/>
+</mediosDeTransporte>
