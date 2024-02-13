@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaCompra [
+<!ELEMENT listaCompra (leche, pan)>
+<!ELEMENT leche (#PCDATA)>
+<!ATTLIST leche cantidad CDATA #REQUIRED>
+<!ELEMENT pan EMPTY>
+<!ATTLIST pan cantidad CDATA #REQUIRED>
+]>
+<listaCompra>
+    <leche cantidad="12 litros" ></leche>
+    <pan cantidad="3 barras de cuarto" />
+</listaCompra>

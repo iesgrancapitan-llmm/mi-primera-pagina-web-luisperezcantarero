@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE lista_personas SYSTEM "file:/C:/Users/Luis%20P%C3%A9rez%20Cantarero/Documents/DAW/Lenguaje/UD2%20A1%20Mi%20primera%20p%C3%A1gina%20Web/mi-primera-pagina-web-luisperezcantarero-main/UD5/A2/ficheros_xml/lista_personas.dtd">
+<lista_personas>
+    <persona>
+        <nombre>Antonio Moreno</nombre>
+        <fecha_nacimiento>27-11-2008</fecha_nacimiento>
+        <sexo>Varón</sexo>
+    </persona>
+</lista_personas>

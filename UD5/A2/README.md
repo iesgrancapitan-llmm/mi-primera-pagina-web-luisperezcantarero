@@ -29,3 +29,39 @@ Entrega un listado de los ejercicios adjuntos. Entrégalos debidamente documenta
 - Actividad [animales](./ficheros_xml/animales.xml)
 - Actividad [escritores](./ficheros_xml/escritores.xml)
 - Actividad [musicos](./ficheros_xml/musicos.xml)
+- Actividad [telefonos emergencia](./ficheros_xml/telefonos_emergencia.xml)
+- Actividad [sistema solar](./ficheros_xml/sistema_solar.xml)
+### Actividad 7. Modificar DTD
+- Actividad [marcadores](./ficheros_xml/marcadores.xml)
+- Actividad [efemerides](./ficheros_xml/efemerides.xml)
+- Actividad [aeropuertos](./ficheros_xml/aeropuertos.xml)
+- Actividad [vuelos](./ficheros_xml/vuelos.xml)
+- Actividad [reyes](./ficheros_xml/reyes_esp.xml) de españa
+- Actividad [paises](./ficheros_xml/paises.xml)
+- Actividad [colores](./ficheros_xml/colores_2.xml) 2
+- Actividad [contabilidad](./ficheros_xml/contabilidad.xml)
+- Actividad [mensajes](./ficheros_xml/mensajes.xml)
+### Actividad 8. Crear DTD externa e interna
+- Actividad [nota](./ficheros_xml/Documento1.xml) DTD Externo
+- Actividad [nota](./ficheros_xml/Documento1_v2.xml) DTD Interno
+---
+- Actividad [etiqueta](./ficheros_xml/Documento2.xml) DTD Externo
+- Actividad [etiqueta](./ficheros_xml/Documento2_v2.xml) DTD Interno
+---
+- Actividad [lista personas](./ficheros_xml/Documento3.xml) DTD Externo
+- Actividad [lista personas](./ficheros_xml/Documento3_v2.xml) DTD Interno
+### Actividad 9. DTD externa e interna. Y que el atributo "tipo” es obligatorio, y sólo puede tomar los valores "familiar” o "habitual”.
+- Actividad [matricula](./ficheros_xml/Documento4.xml) DTD Externo
+- Actividad [matricula](./ficheros_xml/Documento4_v2.xml) DTD Interno
+### Actividad 10. Corregir errores DTD
+- Actividad [datos personales](./ficheros_xml/datos_personales.xml)
+- Actividad [pelicula](./ficheros_xml/pelicula.xml)
+- Actividad [cuadros](./ficheros_xml/cuadros.xml)
+- Actividad [compra](./ficheros_xml/compra.xml)
+- Actividad [jugadores futbol](./ficheros_xml/jugadores_futbol.xml)
+- Actividad [jugadores equipos](./ficheros_xml/jugadores_equipos.xml)
+- Actividad [libro](./ficheros_xml/libro.xml)
+- Actividad [inventores](./ficheros_xml/inventores.xml)
+- Actividad [tareas](./ficheros_xml/tareas.xml)
+- Actividad [resoluciones pantalla](./ficheros_xml/resoluciones_pantalla.xml)
+- Actividad [comic](./ficheros_xml/comic.xml)
