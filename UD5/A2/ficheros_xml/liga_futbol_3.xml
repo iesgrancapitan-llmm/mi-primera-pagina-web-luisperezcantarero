@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos [
+<!ELEMENT equipos (equipo+)>
+<!ELEMENT equipo EMPTY>
+<!ATTLIST equipo procedencia CDATA #REQUIRED>
+<!ATTLIST equipo nombre CDATA #REQUIRED>
+<!ATTLIST equipo goles CDATA #REQUIRED>
+]>
+<equipos>
+    <equipo procedencia="local" nombre="Water de Munich" goles="4"/>
+    <equipo procedencia="visitante" nombre="Esteaua es del grifo" goles="2"/>
+</equipos>

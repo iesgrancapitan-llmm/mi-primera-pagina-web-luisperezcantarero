@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos [
+<!ELEMENT equipos (equipo+)>
+<!ELEMENT equipo ((local | visitante))>
+<!ELEMENT local (nombre, goles)>
+<!ELEMENT visitante (nombre, goles)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT goles EMPTY>
+<!ATTLIST goles puntos CDATA #REQUIRED>
+]>
+<equipos>
+    <equipo>
+        <local>
+            <nombre>Vodka Juniors</nombre>
+            <goles puntos="3"/>
+        </local>
+    </equipo>
+    <equipo>
+        <visitante>
+            <nombre>Sparta da Risa</nombre>
+            <goles puntos="3"/>
+        </visitante>
+    </equipo>
+</equipos>

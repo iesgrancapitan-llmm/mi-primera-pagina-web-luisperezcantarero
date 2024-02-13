@@ -65,3 +65,7 @@ Entrega un listado de los ejercicios adjuntos. Entrégalos debidamente documenta
 - Actividad [tareas](./ficheros_xml/tareas.xml)
 - Actividad [resoluciones pantalla](./ficheros_xml/resoluciones_pantalla.xml)
 - Actividad [comic](./ficheros_xml/comic.xml)
+### Actividad 11. Liga de fútbol
+- Actividad Liga solo [etiquetas](./ficheros_xml/liga_futbol_1.xml)
+- Actividad Liga con [goles](./ficheros_xml/liga_futbol_2.xml) como atributos
+- Actividad Liga solo [atributos](./ficheros_xml/liga_futbol_3.xml)
