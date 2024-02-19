@@ -3,3 +3,4 @@
 ## ACTIVIDAD Nº 1
 - Validación DTD [Actividad 1](./A1/)
 - Validación DTD [Actividad 2](./A2/)
+- Validación XSD [Actividad 3](./A3/)

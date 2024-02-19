@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejr6_xsd.xsd">
+  <persona fechaNacimiento="1985-04-12">
+    <datos>
+      <nombre>Juan</nombre>
+      <apellidos>Pérez García</apellidos>
+      <dni>12345678A</dni>
+    </datos>
+    <comentario>Una persona muy activa y entusiasta del deporte.</comentario>
+    <tarjeta>
+      <numeroTarjeta>1234567890123456</numeroTarjeta>
+    </tarjeta>
+  </persona>
+  <persona>
+    <datos>
+      <nombre>Laura</nombre>
+      <apellidos>Martínez Solís</apellidos>
+      <dni>87654321B</dni>
+    </datos>
+    <comentario>Apasionada por la lectura y la escritura creativa.</comentario>
+    <transferencia>
+      <numeroCuenta>ES9820385778983000760236</numeroCuenta>
+    </transferencia>
+  </persona>
+</personas>

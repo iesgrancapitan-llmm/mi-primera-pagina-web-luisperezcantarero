@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<fichas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Luis%20P%C3%A9rez%20Cantarero/Documents/DAW/Lenguaje/UD2%20A1%20Mi%20primera%20p%C3%A1gina%20Web/mi-primera-pagina-web-luisperezcantarero-main/UD5/A3/ficheros/ejr3_xsd.xsd">
+  <ficha numero="1">
+    <nombre>Ana Sanz Tin</nombre>
+    <edad>22</edad>
+  </ficha>
+  <ficha numero="2">
+    <nombre>Iker Rubio Mol</nombre>
+    <edad>23</edad>
+  </ficha>
+</fichas>

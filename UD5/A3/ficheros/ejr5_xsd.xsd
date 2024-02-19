@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="tipoDatos">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="apellidos" type="xs:string"/>
+      <xs:element name="dni" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="formaPagoTarjeta">
+    <xs:sequence>
+      <xs:element name="numeroTarjeta" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="formaPagoTransferencia">
+    <xs:sequence>
+      <xs:element name="numeroCuenta" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="tipoPersona">
+    <xs:sequence>
+      <xs:element name="datos" type="tipoDatos"/>
+      <xs:element name="comentario" type="xs:string"/>
+      <xs:choice>
+        <xs:element name="tarjeta" type="formaPagoTarjeta"/>
+        <xs:element name="transferencia" type="formaPagoTransferencia"/>
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="fechaNacimiento" type="xs:date" use="optional"/>
+  </xs:complexType>
+  <xs:element name="personas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="persona" type="tipoPersona" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

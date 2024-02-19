@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ejr1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Luis%20P%C3%A9rez%20Cantarero/Documents/DAW/Lenguaje/UD2%20A1%20Mi%20primera%20p%C3%A1gina%20Web/mi-primera-pagina-web-luisperezcantarero-main/UD5/A3/ficheros/ejr1_xsd.xsd">
+  <ciudad>Roma</ciudad>
+  <fecha>1996-12-18</fecha>
+  <hora>18:29:45</hora>
+  <nota>7.5</nota>
+  <apto>true</apto>
+</ejr1>
