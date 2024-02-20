@@ -80,8 +80,5 @@ Indica aquí la url de tu sitio web.
 ## Suscripción
 Utiliza el lector/agregador  feedly para añadir el fichero RSS que has creado.
 
-  Muestra una captura del contenido de la sindicación del contenido
-  
-  
-
-  
+Muestra una captura del contenido de la sindicación del contenido
+![RSS](rss_sub.PNG)
