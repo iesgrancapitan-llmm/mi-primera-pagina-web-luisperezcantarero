@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<precios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Luis%20P%C3%A9rez%20Cantarero/Documents/DAW/Lenguaje/UD2%20A1%20Mi%20primera%20p%C3%A1gina%20Web/mi-primera-pagina-web-luisperezcantarero-main/UD5/A3/ficheros/ejr9_xsd.xsd">
+  <temporada_alta>170.25</temporada_alta>
+  <temporada_baja>111.23</temporada_baja>
+  <temporada_media>100.00</temporada_media>
+</precios>

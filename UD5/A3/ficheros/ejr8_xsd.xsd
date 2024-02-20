@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="examenes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="examen" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="examen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="nota" type="nota"/>
+      </xs:sequence>
+      <xs:attribute name="numero" type="xs:int" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="nota">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="10"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

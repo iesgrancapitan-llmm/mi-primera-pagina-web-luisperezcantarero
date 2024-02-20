@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<examenes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Luis%20P%C3%A9rez%20Cantarero/Documents/DAW/Lenguaje/UD2%20A1%20Mi%20primera%20p%C3%A1gina%20Web/mi-primera-pagina-web-luisperezcantarero-main/UD5/A3/ficheros/ejr8_xsd.xsd">
+  <examen numero="1">
+    <nombre>Raúl García</nombre>
+    <nota>6</nota>
+  </examen>
+  <examen numero="2">
+    <nombre>Miguel Feria</nombre>
+    <nota>8</nota>
+  </examen>
+</examenes>

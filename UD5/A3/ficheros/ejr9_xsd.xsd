@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="precios">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="temporada_alta" type="xs:string"/>
+        <xs:element name="temporada_baja" type="xs:string"/>
+        <xs:element name="temporada_media" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="precio">
+    <xs:restriction base="xs:integer">
+      <xs:maxInclusive value="99999"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
