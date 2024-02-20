@@ -2,8 +2,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Bienvenidos a mi página</title>
-    <link>https://shiny-dollop-rrlwvkj.pages.github.io/</link>
-    <atom:link href="https://shiny-dollop-rrlwvkj.pages.github.io/" rel="self" type="application/rss+xml"/>
+    <link>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-luisperezcantarero/</link>
+    <atom:link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-luisperezcantarero/" rel="self" type="application/rss+xml"/>
     <description>Este es mi primer fichero rss</description>
     <category>HTML5/CSS3/XML</category>
     <copyright>El  uso de esta página pertenece a Luis Pérez Cantarero</copyright>
