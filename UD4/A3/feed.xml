@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="http://www.ejemplo.org">
     <title>Mi primera página web</title>
-    <link href="https://shiny-dollop-rrlwvkj.pages.github.io/"/>
+    <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-luisperezcantarero/"/>
     <updated>2002-10-02T10:00:00-05:00</updated>
     <author>
         <name>Luis Pérez</name>
@@ -27,7 +27,7 @@
     <entry>
         <id>https://www.youtube.com/watch?v=3UN-DF9qKVE</id>
         <title>ATOM</title>
-        <link href="https://shiny-dollop-rrlwvkj.pages.github.io/"/>
+        <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-luisperezcantarero/"/>
         <updated>2002-11-02T10:00:00-05:00</updated>
         <summary>Tips de ATOM</summary>
         <content type="video/mp4" src="./Atom.mp4"/>
