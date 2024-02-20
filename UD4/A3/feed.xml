@@ -17,7 +17,7 @@
     </entry>
     <entry>
         <title>Feed de mi página</title>
-        <link href="http://ejemplo.org/2020/12/13/atom03"/>
+        <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-luisperezcantarero/UD4/A3/feed.xml"/>
         <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
         <updated>2024-02-20T11:00:00Z</updated>
         <summary>Esta es mi primera vez haciendo un feed para mi página web.</summary>
