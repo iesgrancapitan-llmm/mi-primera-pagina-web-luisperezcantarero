@@ -31,3 +31,4 @@ Visualiza este [vídeo](https://youtu.be/1BjmZHRHDv0?t=111) y entrega los siguie
 - Actividad Ejercicio8 [XSD](./ficheros/ejr8_xsd.xsd) [XML](./ficheros/Documento8.xml)
 - Actividad Ejercicio9 [XSD](./ficheros/ejr9_xsd.xsd) [XML](./ficheros/Documento9.xml)
 - Actividad Ejercicio10 [XSD](./ficheros/ejr10_xsd.xsd) [XML](./ficheros/Documento10.xml)
+- Actividad Factura [XSD](./ficheros/factura.xsd) [XML](./ficheros/factura.xml)

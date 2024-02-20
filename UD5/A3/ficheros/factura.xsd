@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="Factura">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="cabecera"/>
+        <xs:element name="apunte" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="cabecera">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="fecha"/>
+        <xs:element name="cliente"/>
+      </xs:sequence>
+      <xs:attribute name="factura_id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="fecha">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="mes" type="xs:string"/>
+        <xs:element name="dia" type="xs:string"/>
+        <xs:element name="anno" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="cliente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="direccion"/>
+      </xs:sequence>
+      <xs:attribute name="cliente_id" type="xs:string" use="required"/>
+      <xs:attribute name="nombre" type="xs:string"/>
+      <xs:attribute name="telefono" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="direccion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre_via" type="TipoNombreVia"/>
+        <xs:element name="numero" type="xs:string"/>
+        <xs:element name="localidad" type="xs:string"/>
+        <xs:element name="provincia" type="xs:string"/>
+        <xs:element name="cp" type="xs:string"/>
+        <xs:element name="pais" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="TipoNombreVia">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="tipo_via" default="Calle">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Calle"/>
+              <xs:enumeration value="Avda"/>
+              <xs:enumeration value="Plaza"/>
+              <xs:enumeration value="Carretera"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:element name="apunte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="concepto"/>
+      </xs:sequence>
+      <xs:attribute name="descuento" type="xs:string"/>
+      <xs:attribute name="moneda" type="xs:string"/>
+      <xs:attribute name="precio" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="concepto">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="cantidad" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
