@@ -2,7 +2,7 @@
 
 ## Hosting (GitHub Pages)
 
-[Hosting (GitHub Pages)](https://shiny-dollop-rrlwvkj.pages.github.io/)
+[Hosting (GitHub Pages)](https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-luisperezcantarero/)
 
 ## Temas
 
