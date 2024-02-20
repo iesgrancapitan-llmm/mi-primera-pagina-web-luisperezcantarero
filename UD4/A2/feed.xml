@@ -32,5 +32,23 @@
       <guid>https://shiny-dollop-rrlwvkj.pages.github.io/</guid>
       <description>Curso en el que estoy realizando la página</description>
     </item>
+    <item>
+      <title>Practica de HTML</title>
+      <link>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-luisperezcantarero/UD2%20A1%20Mi%20primera%20pagina%20web/tarea1.html</link>
+      <guid>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-luisperezcantarero/UD2%20A1%20Mi%20primera%20pagina%20web/tarea1.html</guid>
+      <description>Aqui se encuentran mi primera práctica de HTML</description>
+    </item>
+    <item>
+      <title>Practica de Grid</title>
+      <link>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-luisperezcantarero/UD3%20A4%20CSS%20Grid/grid.html</link>
+      <guid>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-luisperezcantarero/UD3%20A4%20CSS%20Grid/grid.html</guid>
+      <description>Aqui es donde está mi primera practica de Grid</description>
+    </item>
+    <item>
+      <title>Mi Horario</title>
+      <link>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-luisperezcantarero/UD2%20A4%20Tabla/tabla.html</link>
+      <guid>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-luisperezcantarero/UD2%20A4%20Tabla/tabla.html</guid>
+      <description>Este es el horario</description>
+    </item>
   </channel>
 </rss>
