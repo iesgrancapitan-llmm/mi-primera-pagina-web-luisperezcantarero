@@ -35,7 +35,7 @@
     <entry>
         <id>https://www.youtube.com/watch?v=3UN-DF9qKVE</id>
         <title>ATOM</title>
-        <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-luisperezcantarero/"/>
+        <link href="./Atom.mp4"/>
         <updated>2024-02-20T11:00:00Z</updated>
         <summary>Tips de ATOM</summary>
         <content type="video/mp4" src="./Atom.mp4"/>
@@ -43,7 +43,7 @@
     <entry>
         <id>https://educacionadistancia.juntadeandalucia.es/centros/cordoba/pluginfile.php/191849/mod_resource/content/0/Sindicaci%C3%B3n%20de%20contenidos.pdf</id>
         <title>PDF de RSS y ATOM</title>
-        <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-luisperezcantarero/"/>
+        <link href="./Sindicacion_de_contenidos.pdf"/>
         <updated>2024-02-20T11:00:00Z</updated>
         <summary>PDF guia de la tarea</summary>
         <content type="application/pdf" src="./Sindicacion_de_contenidos.pdf"/>
