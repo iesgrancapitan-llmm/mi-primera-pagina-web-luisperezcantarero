@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="regex.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<regex>
+    <dni>12345678Z</dni>
+    <!-- <dni>12345678z</dni> -->
+    <dni>12345678 Z</dni>
+    <dni>12345678-Z</dni>
+
+    <matricula>1234 BCD</matricula>
+    <matricula>5678 ZYX</matricula>
+    <!-- <matricula>1234 ABC</matricula> -->
+    <!-- <matricula>1234 QBC</matricula> -->
+    <!-- <matricula>1234 MNÑ</matricula> -->
+
+    <mac>AB-CD-F1-23-45-67</mac>
+    <mac>AB:CD:F1:23:45:67</mac>
+    <mac>ABCDF1234567</mac>
+    <!-- <mac>AB:CDF1:23:45-67</mac> -->
+
+    <ip>0.0.0.0</ip>
+    <ip>14.255.1.2</ip>
+    <!-- <ip>09.1.2.3</ip> -->
+    <!-- <ip>1.260.4.5</ip> -->
+    <!-- <ip>09.6.5.4</ip> -->
+    <!-- <ip>1.2.3.011</ip> -->
+
+    <numero>47</numero>
+    <numero>77.7</numero>
+    <numero>420.69</numero>
+    <!-- <numero>88.0888</numero> -->
+</regex>

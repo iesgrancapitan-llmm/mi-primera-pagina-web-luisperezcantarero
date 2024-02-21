@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:simpleType name="tipoDni">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{8}[ -]?[A-aZ-Z]"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoMatricula">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{4}[ -]?[B-DF-HJ-NPR-TV-Z]{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoMac">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([A-F]{5}\d{7}|[A-F]{2}(\-|\:)[A-F]{2}(\-|\:)[A-F]\d(\-|\:)\d\d(\-|\:)\d\d(\-|\:)\d\d)"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoIp">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[1-9]|(0))\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[1-9]|(0))"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoDecimal">
+        <xs:restriction base="xs:decimal">
+            <xs:pattern value="\d+(\.\d{1,2})?"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="tipoRegex">
+        <xs:sequence>
+            <xs:element name="dni" maxOccurs="unbounded" type="tipoDni"/>
+            <xs:element name="matricula" maxOccurs="unbounded" type="tipoMatricula"/>
+            <xs:element name="mac" maxOccurs="unbounded" type="tipoMac"/>
+            <xs:element name="ip" maxOccurs="unbounded" type="tipoIp"/>
+            <xs:element name="numero" maxOccurs="unbounded" type="tipoDecimal"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="regex" type="tipoRegex" />
+</xs:schema>
