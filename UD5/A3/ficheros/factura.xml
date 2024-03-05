@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Factura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Luis%20P%C3%A9rez%20Cantarero/Documents/DAW/Lenguaje/UD2%20A1%20Mi%20primera%20p%C3%A1gina%20Web/mi-primera-pagina-web-luisperezcantarero-main/UD5/A3/ficheros/factura.xsd">
+<Factura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./factura.xsd">
   <cabecera factura_id="12345">
     <fecha>
       <mes>Marzo</mes>
       <dia>15</dia>
-      <anno/>
+      <anno>2021</anno>
     </fecha>
     <cliente cliente_id="J-123" nombre="Juan Garcia Sánchez" telefono="957-000-111">
       <direccion>
@@ -20,7 +20,7 @@
   <apunte descuento="promocion" precio="57">
     <concepto cantidad="2">Tarjeta gráfica 3D</concepto>
   </apunte>
-  <apunte moneda="euro" precio="27,5">
+  <apunte moneda="euro" precio="27.5">
     <concepto>Memoria Flash</concepto>
   </apunte>
 </Factura>
