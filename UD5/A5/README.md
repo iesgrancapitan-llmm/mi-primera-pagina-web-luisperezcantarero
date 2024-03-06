@@ -97,7 +97,7 @@ Fichero [XSD](/UD5/A3/ficheros/factura.xsd)
 
 7. Con respecto a la validación con XSD indica:
 - Un esquema es un documento *XML* al que se le coloca la extensión _.xsd_ . Al ser un archivo XML tiene la estructura habitual de todo documento XML con la obligación de que el elemento _raiz_ se llame _schema_ .
-- Etiqueta que identifica la raíz de un documento XML Schema: 
+- Etiqueta que identifica la raíz de un documento XML Schema: <xs:schema
 - Etiquetas que identifican las partes de un esquema:
   - Elementos, definidos con etiquetas _xs:element_. Para indicar los elementos permitidos en los documentos que sigan el esquema.
   - Atributos, etiqueta _xs:attribute_.
