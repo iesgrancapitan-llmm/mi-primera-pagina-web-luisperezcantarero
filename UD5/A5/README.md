@@ -93,7 +93,7 @@
 <!-- definición de los tipos complejos -->
 <!-- elemento raíz -->
 ```
-Fichero [XSD](/UD5/A4/regex.xsd)
+Fichero [XSD](/UD5/A3/ficheros/factura.xsd)
 
 7. Con respecto a la validación con XSD indica:
 - Un esquema es un documento *XML* al que se le coloca la extensión _.xsd_ . Al ser un archivo XML tiene la estructura habitual de todo documento XML con la obligación de que el elemento _raiz_ se llame _schema_ .
